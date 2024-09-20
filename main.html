@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest-like Hero Section</title>
+    <style>
+        /* Styling for the hero container */
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f4f6;
+            padding: 20px;
+            box-sizing: border-box;
+        }
 
+        /* Styling for the hero content */
+        .hero-content {
+            text-align: center;
+        }
+
+        /* Styling for the image */
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Styling for the heading */
+        .hero h1 {
+            font-size: 36px;
+            color: #333;
+            margin: 20px 0;
+        }
+
+        /* Styling for the paragraph */
+        .hero p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the Explore Now button */
+        .hero a {
+            padding: 12px 24px;
+            background-color: #e60023;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 16px;
+        }
+
+        .hero a:hover {
+            background-color: #c0001a;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <!-- Hero Section Container -->
+    <div class="hero">
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <!-- Image -->
+            <img src="https://i.pinimg.com/originals/19/29/15/192915b9338325b5a01992e64d8411f9.jpg" alt="Hero Image">
+            
+            <!-- Heading -->
+            <h1>Discover New Ideas</h1>
+            
+            <!-- Paragraph -->
+            <p>Explore creative inspiration and new concepts on Pinterest.</p>
+            
+            <!-- Explore Now Button -->
+            <a href="#">Explore Now</a>
+        </div>
+    </div>
 
 </body>
-
 </html>
